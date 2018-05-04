@@ -1,0 +1,148 @@
+/*mobile in portrait mode*/
+@media only screen and (max-width : 375px)
+{
+	/*Header section*/
+	nav .navbar-header .navbar-brand-custome {
+	  padding: 12px 12px 12px 0;
+	}
+	.navbar-brand > img {
+	  max-width: 64%;
+	}
+	.navbar-inverse .navbar-toggle .icon-bar {
+	  background-color: #990000;
+	}
+	/*banner section*/
+	.banner-cover {
+		height: 600px;
+	}
+	.banner { height: 421px;}
+	.banner-text-cvr {
+		margin: 0px;
+	}
+	.banner-text {
+		max-width: 100%;
+		position: relative;
+		left: 0;
+		top: 0;
+		margin-top: 0;
+		text-align: center;
+		background: rgba(255,255,255,0.87);
+		padding: 16px;
+		margin: 100px 0 50px;
+	}
+	.banner-text h1 {
+		font-size: 18px;
+	}
+	.cta-btn {
+		text-align: center;
+	}	
+	.cta-btn .btn {
+		float: none;
+		margin-top: 24px;
+	}
+	/*Whats new section*/
+	.whts-new {
+		padding: 24px 0;
+	}
+	.cmn-hdr {
+		font-size: 28px;
+		margin-bottom: 24px;
+	}
+	.line-text { display: block;}
+	.cmn-hdr::before {
+		top: 0;
+		left: 0;
+		width: 4px;
+		height: 16px;
+		background-size: cover;
+		margin: auto;
+		bottom: 0;
+	}
+	.whts-new .item.bor-bot {
+		text-align: center;
+	}
+	.wts-new-txt {
+		padding-top: 24px;
+	}
+	.wts-new-txt p:nth-child(1){
+		font-size: 20px;
+		margin-bottom: 16px;
+	}
+	.wts-new-txt button {
+		margin-top: 24px;
+	}
+	.owl-prev, .owl-next {
+		height: 28px;
+	}	
+	.owl-prev img, .owl-next img {
+		height: 100%;
+	}
+	
+	.insights {
+		padding: 24px 0;
+		height: auto;
+	}
+	.insights h2.sec-hd{
+		font-size: 28px;
+		margin-bottom: 32px;
+	}
+	.in-cmn-box {
+		width: 100%;
+		margin-bottom: 24px;
+		min-height: 1px;
+	}
+	.insight-cmn-bx {
+		min-height: 1px;
+		padding: 16px;
+	}
+	.insights-icon p:nth-child(1) {
+		font-size: 18px;
+		align-items: flex-start;
+		min-height: 1px;
+		padding-bottom: 16px;
+	}
+	.insights-icon p br {
+		display: none;
+	}
+	.solutions, .rel-solutions {
+		padding: 24px 0;
+	}
+	.solutions .col-md-4 {
+		margin-bottom: 24px;
+	}
+	.solutions .col-md-4:nth-child(last){
+		margin-bottom: 0px;
+	}
+	.case-studies {
+		padding: 48px 0;
+	}
+	.bms-img {
+		padding: 0px;
+	}
+	.bms-img img {
+		position: relative;
+		max-width: 100%;
+	}
+	.bms-txt {
+		padding-bottom: 24px;
+	}
+	.p-cover {
+		padding-top: 28px;
+	}
+	.bms-txt p:first-child {
+		font-size: 18px;
+	}
+	.bms-txt h2 {
+		font-size: 28px;
+		margin-bottom: 48px;
+	}
+	.bms-txt p.txt { 
+		margin-bottom: 28px;
+	}
+	.grid-item, .grid-item--width2, .grid-item--width3 {
+		width:100%;
+	}
+	.rel-cmn-box figcaption {
+		font-size: 18px;
+	}
+}

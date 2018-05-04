@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+	<title>Welcome to Team Computers Pvt Ltd</title>
+	<link rel="shortcut icon" href="../image/favicon.png"/>
+	<!-- font awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700|Roboto:300,400,500,700,900" rel="stylesheet">
+	<!-- Bootstrap -->
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<!-- Custom styles -->
+
+	<link rel="stylesheet" href="<?php echo BASE_URL_CSS; ?>reset.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL_CSS; ?>style.css">
+	<link rel="stylesheet" href="<?php echo BASE_URL_CSS; ?>style-responsive.css">
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+	<header>
+		<div id="inner-header" class="clearfix">
+			<?php include("include/inc_nav.php");?>
+			<!-- end .navbar -->
+		</div>
+	</header>
+	<div class="clearfix"></div>
+	<div class="body-content innner-body-con">
+		<section class="solutions-banner clearfix">
+			<div class="container">
+				<h1>Careers</h1>
+			</div>
+		</section>
+		<section class="find-job">
+			<div class="container">
+				<div class="row">
+					<div class="all-emp clearfix">
+						<div class="row">
+							<div class="container clearfix">
+								<div class="col-md-12 clearfix">
+								</div>
+								<div class="cmn-hd"><h1 style="margin-bottom: 50px">Current Openings</h1></div>
+								<div class="filter-sec clearfix">
+					                
+					                <select name="category" required id="category" onchange="selectCategory()">
+                                                        <option value="0">Select Category</option>
+                                                        <?php foreach($category as $cate){ ?>
+                                                   <option required value="<?php echo $cate['artst_id']; ?>">
+                                                            <?php echo $cate['artst_name']; ?>
+                                                        </option>
+                                                    <?php } ?>
+                                                    <option value="NULL">All</option>
+                                                </select>
+					                
+					            </div>
+								<!-- <div class="cmn-hd"><h1 style="margin-bottom: 50px">This page is under Modification</h1></div> -->
+								<div class="col-md-3">
+									<div class="row">
+										<div class="career-nav-icon">
+										<button  value="1" class="active1" id="category" onclick="selectCategory()">
+											<ul class="ic-cover">
+												<li class="icon-img-sales"></li>
+												<li>Sales</li>
+											</ul></button>
+											<button  value="2" id="category" onclick="selectCategory()">
+											<ul class="ic-cover">
+												<li class="icon-img-it"></li>
+												<li>Information <br>Technology</li>
+											</ul>
+											</button>
+											<button  value="3" id="category" onclick="selectCategory()">
+											<ul class="ic-cover">
+												<li class="icon-img-os"></li>
+												<li>Operation & Support <br>
+												<span>(HR /Finance /Admin /Marketing /Legal/ Audit)</span>
+												</li>
+											</ul></button>
+											<button  value="4" id="category" onclick="selectCategory()">
+											<ul class="ic-cover">
+												<li class="icon-img-l"></li>
+												<li>Leadership</li>
+											</ul></button>
+											<button  value="5" id="category" onclick="selectCategory()">
+											<ul class="ic-cover">
+												<li class="icon-img-pm"></li>
+												<li>Product <br> Management</li>
+											</ul></button>
+											<button  value="6" id="category" onclick="selectCategory()">
+											<ul class="ic-cover">
+												<li class="icon-img-be"></li>
+												<li>Not Sure where to <br>begin<br><span>(Student exploring careers /Professional)</span></li>
+											</ul></button>
+										</div>
+									</div>
+								</div>
+
+								<div class="col-md-9 clearfix" id="fetchJobs">
+								
+
+									
+									
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+	<?php include("include/footer.php"); ?>
+	<!-- jquery JS -->
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+	<!-- Bootstrap js -->
+	<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+	<!-- Propeller textfield js -->
+	<script type="text/javascript" src="http://propeller.in/components/textfield/js/textfield.js"></script>
+
+	<script type="text/javascript" src="<?php echo BASE_URL_JS; ?>custom.js"></script>
+</body>
+
+</html>
+<!--
+<script type="text/javascript">
+    $(document).ready(function() {
+        $('button#category').click(function() {
+            var a = $(this).val();
+			alert(a);
+			
+			
+        });
+		
+    });
+</script>
+-->
+<script>
+
+
+function selectCategory() {
+	
+	var categoryId = $('button#category').val();
+	
+  	$.ajax({
+        type: "post",
+        url: 'site/selectCategory',
+        data: {category:categoryId},
+        success:function(data)
+        {
+
+          $("#fetchJobs").html(data);
+          localStorage.setItem("cat_id", categoryId);
+        }
+   
+    });
+}
+
+
+</script>
+<script>
+	$(document).ready(function(){
+		$('.career-nav-icon a').click(function(){
+			$('.career-nav-icon a').removeClass('active1');
+			$(this).addClass('active1');
+		})
+	})
+	</script>

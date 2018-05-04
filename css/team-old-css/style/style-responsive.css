@@ -1,0 +1,651 @@
+@charset "utf-8";
+/* CSS Document */
+@media (min-width : 1023px) {
+	
+}
+@media (max-width : 1199px) {
+	.ty-sol .tpadding100 {
+		padding-top: 30px;
+	}
+}
+@media (min-width : 1024px) and (max-width : 1199px) {
+	.nav-tabs > li > a {
+		font-size: 23px;
+	}
+	.en-sol-img img {
+		max-width: 100%
+	}
+	.footer-menu {
+		width: 60%;
+	}
+	.other-sol {
+    padding: 70px 0 50px;
+}
+}
+
+@media (max-width : 1023px){
+	.partners-sec {
+		margin-bottom: 50px;
+	}	
+	.lgl-pp {
+    margin-top: 0;
+}
+	.cmn-mar {
+		margin-bottom: 20px;
+	}
+	a.navbar-brand {
+		padding: 15px 0;
+	}
+	.navbar-toggle .icon-bar {
+		width: 30px;
+		height: 4px;
+		border-radius: 1px;
+		background-color: #00aac4;
+		margin-bottom: 6px;
+	}
+	.navbar-toggle:hover .icon-bar {
+		background-color: #61757d;
+		
+	}
+	.fc-line {
+		display: none;
+	}
+	.en-sol-img {
+		display: none;
+	}
+}
+@media (min-width : 768px) and (max-width : 1023px) {
+	.we-are-bx, .testimonial-bx {
+		width: 100% !important;
+	}
+	.ba h1 {
+		font-size: 24px !important;
+	}
+	.rel-cmn-bx h2 {
+		font-size: 18px !important;
+	}
+	.nav-tabs > li > a {
+		font-size: 23px;
+	}
+	.we-are-bx img, .testimonial-bx img {
+		margin: 0 auto;
+		margin-bottom: 30px;
+	}
+	a.navbar-brand{
+		padding: 0;
+	}
+	.industries-sec ul {
+		margin-left: 30px;
+	}
+}
+@media (min-width : 1023px) and (max-width : 1090px) {
+	.team-slogan {
+		margin-top: 75px;
+	}
+}
+@media (min-width : 890px) and (max-width : 1022px) {
+	a.navbar-brand{
+		padding: 0;
+	}
+	.industries-sec ul {
+		margin-left: 30px;
+	}
+	.navbar-brand span {
+		font-size: 10px !important;
+	}
+}
+@media (min-width : 768px) and (max-width : 889px) {
+	
+	#mobile-menu-topnav {
+		display: none !important;
+	}
+	.navbar-brand span {
+		font-size: 10px !important;
+	}
+	.navbar-nav > li > a {
+		padding: 20px 11px !important;
+	}
+}
+@media (max-width : 767px){
+	.circle-cover, .ba-h .process-bar {
+		display: none;
+	}
+	.navbar-toggle {
+		display: block !important;
+		color: #ccc;
+		line-height: 1.5;
+		padding: 9px 10px 0;
+	}
+	.navbar-fixed-top {
+		display: block !important;
+	}
+	.menu-icon {
+		display: none !important;
+	}
+	.navbar-toggle {
+		margin-right: 0!important;
+		padding: 20px 10px 0;
+	}
+	.nav-collapse {
+		width: 100%;
+		text-align: center;
+	}
+	.navbar{
+		margin-bottom: 0 !important;
+		border-bottom: 1px solid #ccc;
+	}
+}
+@media (min-width : 480px) and (max-width : 767px) {
+	.navbar-toggle {
+		padding: 9px 10px 0;
+	}
+	a.navbar-brand {
+		padding: 0;
+	}
+	.nav-tabs > li > a {
+		font-size: 15px;
+	}
+	.other-sol .col-xs-12 {
+		width: 50% ;
+	}
+	.social-box {
+		float: left;
+	}
+	.team-slogan {
+		margin-top: 65px;
+	}
+	#mobile-menu-topnav {
+		width: 100%;
+		border-top: 2px solid #00abc5;
+		float: none !important;
+	}
+	.navbar-nav {
+		margin: 7px 0;
+	}
+}
+@media (max-width : 480px) {
+	.fig-cover {
+    position: relative !important;
+    
+	}
+	.why-cul {
+    font-size: 27px !important;
+	}
+	.culture-box p {
+    font-size: 17px;
+	}
+	.culture-box1::after, .culture-box figcaption {
+		display: none;
+	}
+	.abs-text-cover, .stamp, .coin {
+		position: relative !important;
+		top: 0;
+		left: 0;
+	}
+	.culture-box {
+		padding: 20px 0 !important;
+	}
+	.rt-cover {
+		padding-top: 20px !important;
+	}
+	.jhn-len span img {
+		display: none !important;
+	}
+	.ba h1 {
+		font-size: 22px !important;
+	}
+	.culture-box3 {
+		padding-bottom: 30px !important;
+	}
+	.ba-h h2 {
+		min-height: auto !important;
+		margin-bottom: 20px;
+	}
+	.ba-h .col-md-3 {
+		margin-bottom: 50px;
+	}
+	.ba-prod {
+		padding-bottom: 0 !important;
+	}
+	.wht-new img {
+		margin-bottom: 20px
+	}
+	.wht-new .col-md-4 {
+		margin-bottom: 50px;
+	}
+	.busi-ana h1:after {
+		display: none !important;
+	}
+	.team-slogan {
+		margin-top: 40px;
+	}
+	.all-ofc {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.all-ofc h1 {
+		margin-top: 0;
+	}
+	.cont-det, .location-map {
+		padding: 0;
+	}
+	#logo span {
+		display: none;
+	}
+	.cont-d:after {
+		display: none;
+	}
+	.innner-body-con {
+    margin-top: 40px;
+}
+	.solutions-banner h1 {
+    font-size: 24px;
+	}
+	.social-box {
+		float: none;
+		text-align: center;
+	}
+	.social-box li:first-child {
+		margin-right: 10px;
+		max-width: 100%;
+		display: block;
+		
+	}
+	.social-box li:first-child img {
+		margin: 0 auto;
+		margin-bottom: 10px;
+		margin-top: 10px;
+	}
+	.abt-ent-sol {
+		padding: 30px 0;
+	}
+	.other-sol {
+    padding: 30px 0;
+}
+	.other-sol h1 {
+    font-size: 25px;
+	margin-bottom: 20px;
+	}
+	.footer-menu, .lgl-pp {
+		padding: 0;
+		margin-top: 5px;
+	}
+	.navbar-brand span {
+		font-size: 11px;
+	}
+	a.navbar-brand {
+		padding: 7px 0;
+	}
+	.navbar-fixed-top {
+		padding: 0;
+	}
+	.home-banner-con {
+		margin-top: 0px;
+	}
+	.ban-sub-text {
+		margin-bottom: 70px;
+	}
+	.carousel-indicators {
+		margin: 0 auto;
+		top:90px;
+		left: 0;
+		width: 100%;
+	}
+	.team-slogan h1 {
+		margin-top: 50px;
+		font-size: 18px;
+		text-align: center;
+	}
+	.cmn-sol-bx {
+		margin-bottom: 20px;
+	}
+	.banner-text {
+		font-size: 40px;
+		text-align: center;
+	}
+	.banner-text h2 span {
+    font-size: 20px;
+}
+	.home-banner-con {
+		overflow: hidden;
+	}
+	.we-are-bx, .testimonial-bx {
+		width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	
+	.cmn-facts {
+		min-height: 180px;
+	}
+	.offices .bk-cir {
+		margin-top: 0 !important;
+	}
+	.facts-sec {
+		padding-bottom: 20px;
+		padding-top: 50px;
+	}
+	.home-cmn-hd h1 {
+		font-size: 22px;
+		padding: 0 15px;
+	}
+	.home-cmn-hd p.sub-hd {
+		font-size: 14px;
+	}
+	.add-cn {
+		padding: 50px 0 0;
+	}
+	.home-cmn-hd p.sub-hd {
+		margin-bottom: 50px;
+	}
+	.we-are-bx {
+		padding: 50px 0;
+	}
+	.cmn-trn {
+		margin-bottom: 50px;
+	}
+	.con-btn a {
+		margin-top: 20px;
+	}
+	.news-and-eve {
+		padding: 50px 0;
+	}
+	.fb-wid {
+		padding-top: 30px;
+	}
+	.con-btn a {
+		padding: 15px;
+		font-size: 16px;
+	}
+	.testimonial-bx {
+		padding: 50px 15px;
+	
+	}
+	.news-and-events-bx li a {
+		font-size: 14px;
+	}
+	.img-box {
+		margin-bottom: 10px !important;
+	}
+	.ccv-all-box {
+		margin-top: 50px;
+	}
+	.testm {
+		margin-top: 50px;
+	}
+	.menu-item a {
+		width: 100%;
+		display: block;
+		text-align: center;
+	}
+	#mobile-menu-topnav {
+		width: 100%;
+		border-top: 2px solid #00abc5;
+		float: none !important;
+	}
+	.navbar-nav {
+		margin: 7px 0;
+	}
+	.cmn-hd h1 {
+		font-size: 40px;
+	}
+	.navbar-toggle {
+		padding-top: 13px;
+	}
+	.footer-top-sec ul {
+		width: auto;
+		margin: 0 auto;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.lgl-pp {
+		float: none;
+	}
+	.cont-d {
+		padding-top: 30px;
+	}
+	.nav-tabs > li > a {
+		font-size: 14px;
+	}
+	.our-team {
+		margin-top: 63px;
+	}
+	.knw-dir h1 {
+		font-size: 30px;
+	}
+	
+	.ba-dir, .ceo-bx {
+		margin-bottom: 70px;
+	}
+	.vision-mission .we-are-bx, .vision-mission .testimonial-bx {
+		margin-top: -50px;
+	}
+	.vision-mission .we-are-bx img, .vision-mission .testimonial-bx img {
+		margin: 0 auto;
+		margin-bottom: 20px;
+	}
+	.knw-dir {
+		padding: 30px 0;
+	}
+	.our-team-img-bx {
+		margin-bottom: 30px;
+	}
+	.ab-us {
+		padding-bottom: 100px;
+		padding-top: 30px !important;
+	}
+	.about-us-cta h1 {
+		line-height: 1.5;
+	}
+	.about-us-cta h1 em {
+    font-size: 18px;
+    line-height: 1.3;
+    display: block;
+    margin-top: 20px;
+}
+	.soc-vid {
+		padding: 3px;
+		line-height: 0;
+	}
+	.soc-vid iframe {
+		height: 100% !important;
+		width: 100% !important;
+	}
+	.post-header ul li {
+		padding: 0 !important;
+		font-size: 14px;
+	}
+	.post-header ul li:first-child, .post-header ul li:last-child {
+		text-align: center;
+		float: none;
+	}
+	.solutions-banner h1 {
+		font-size: 20px;
+	}
+	.post-header ul li .btn, .btn-lg {
+		font-size: 14px;
+	}
+	.event-banner .carousel-indicators {
+		left: 0 !important;
+	}
+	.cmn-sub-heading h2 {
+		font-size: 25px;
+		margin-bottom: 30px;
+	}
+	.cmn-sub-heading {
+		padding: 0px 0;
+	}
+	.right-sec, .left-sec {
+		border: 0;
+	}
+	.mid-image, .blue-dots:after {
+		display: none;
+	}
+	.right-sec {
+    max-width: 350px;
+    max-height: 350px;
+    float: none;
+    border: none;
+    border-radius: 0px;
+    padding: 0 0 30px;
+    font-size: 16px;
+    text-align: center;
+    margin-right: 0;
+}
+
+	.left-sec {
+    position: relative;
+    max-width: 300px;
+    max-height: 300px;
+		top:0;
+		left:0;
+    border: none;
+    border-radius: 0;
+    padding:  0;
+    font-size: 16px;
+    text-align: center;
+}
+	.sub-sec {
+		padding-top: 20px !important;
+		padding-bottom: 50px !important;
+	}
+	.cont {
+    font-size: 14px;
+		padding: 0 30px;
+}
+	.cmn-hd p {
+		font-size: 14px !important;
+	}
+	.agenda {
+		overflow-x: scroll;
+	}
+	.location-map iframe {
+		float: none;
+		margin: 0 auto;
+	}
+	.venue-details {
+		padding: 30px 0;
+		margin: 0 auto;
+	}
+	.post-header li {
+		text-align: center;
+	}
+	.post-header ul li .btn {
+		margin-bottom: 4px;
+	}
+	.event-banner {
+		overflow-x: hidden;
+	}
+	#side-section img {
+		display: none;
+	}
+	.career-nav-icon li {
+		font-size: 13px;
+	}
+	.solutions-banner {
+    padding: 20px 0 10px;
+}
+	.ic-cover li:first-child {
+		display: none !important;
+	}
+	.career-nav-icon {
+		padding: 30px 0 20px !important;
+	}
+	.career-nav-icon a {
+		display: inline-block;
+	}
+	.career-nav-icon li {
+		max-width: 100%;
+		margin-left: 20px;
+		padding: 5px 10px;
+		border: 1px solid #ccc;
+		margin-bottom: 10px;
+		background-color: #f4f7f9;
+	}
+	.career-icon-menu {
+		background-color: #fff;
+		border-bottom: 1px solid #ccc;
+
+	}
+	.career-nav-icon li:hover, a.active1 li  {
+		border:1px solid #00abc5;
+	}
+	.tbpadding {
+		padding-top: 0px !important;
+		padding-bottom: 50px !important;
+	}
+	.cmn-btn p {
+		font-size: 20px;
+		padding: 0 20px;
+		border-top: none;
+	}
+	.career-page a .job-des-cmn {
+    box-shadow: 3px 3px 7px rgba(0,0,0,.1);
+}
+	#fetchJobs {
+		padding-top: 40px;
+	}
+	#side-section {
+		display: none;
+	}
+	.find-job {
+		padding: 0;
+	}
+	.active1 li {
+    animation: none !important;
+}
+	.agenda table tr td:first-child, .agenda table  th:first-child {
+    display: none;
+} 
+	.agenda table tr td:nth-child(2) {
+    font-size: 16px;
+}
+.agenda table tr td, .agenda table  th {
+    padding: 10px;
+}
+	.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3 {
+    height: 280px;
+}
+	.post-header {
+		position: relative;
+	}
+	.post-header .btn-top {
+		position: absolute;
+		top: 10px;
+		right: 0px;
+		padding: 2px 5px !important;
+		font-size: 13px !important;
+	}
+	.event-banner .hero {
+		width: 100%;
+	}
+	.res-mb {
+		padding:30px 0 50px !important;
+	}
+
+}
+@media (min-width : 370px) and (max-width : 478px)
+{
+	.team-slogan {
+		margin-top: 60px;
+	}
+}
+@media (min-width : 360px) and (max-width : 478px) {
+	.nav-tabs a.bpadding {
+		padding-bottom: 30px !important;
+	}
+}
+@media (min-width : 320px) and (max-width : 359px)
+{
+	.nav-tabs a.bpadding {
+		padding-bottom: 50px;
+	}
+}
+@media (min-width : 320px){
+	
+	.navbar{
+		margin-bottom: 0 !important;
+	}
+}
+
+
